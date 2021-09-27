@@ -5,6 +5,7 @@ var InitDemo = function(){
     var gl = canvas.getContext('webgl');
 
     if(!gl){ /*if the browser doesn't fully support*/
+        console.log('Webgl not supported, falling back on experimental-webgl');
         gl = canvas.getContext('experimental-webgl');
     }
 
