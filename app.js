@@ -35,7 +35,7 @@ var InitDemo = function(){
         alert('Your Browser Does Not Support WebGL')
     
     }
-    gl.clearColor(0.75, 0.85, 0.8, /*Background Color sesuai width ama height (harusnya muncul ijo*/ 
+    gl.clearColor(0.75, 0.85, 0.8, 1.0); /*Background Color sesuai width ama height (harusnya muncul ijo*/ 
     gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT); /*trigger buat munculin warna*/
     };
     
